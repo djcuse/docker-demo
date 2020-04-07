@@ -18,7 +18,7 @@ stage ('Build App') {
 nodejs('nodejs') {
    sh "npm install"
 }
-sh "docker build -t mukesh1218/edison-devops-nodejs-webapp"
+sh "docker build "newbuild" -t mukesh1218/edison-devops-nodejs-webapp"
 sh "docker push mukesh1218/edison-devops-nodejs-webapp"
 
   }
